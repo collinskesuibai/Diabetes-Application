@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "568870837097",
+    "firebase_url": "https://diakenya.firebaseio.com",
+    "project_id": "diakenya",
+    "storage_bucket": "diakenya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568870837097:android:58e211dbd9bfbaea",
+        "android_client_info": {
+          "package_name": "com.collinskesuiabi.diakenya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568870837097-i20omolbmkbqp9r8gsfmhuhcona5bvvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.collinskesuiabi.diakenya",
+            "certificate_hash": "c4df6af9eb132cfa539896ca155d33f405e4c848"
+          }
+        },
+        {
+          "client_id": "568870837097-564hv0eib78nmromsamirpsjgtkke7ph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSMkVJCCC9ur9Hd8sgJ8Xtaz_vZGxBlZI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568870837097-564hv0eib78nmromsamirpsjgtkke7ph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

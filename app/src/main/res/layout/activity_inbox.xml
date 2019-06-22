@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inbox_Activity">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/backButton"
+                android:src="@drawable/ic_profile"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="collins"
+                android:layout_toRightOf="@+id/backButton"
+                android:textColor="@color/red"
+                android:layout_centerVertical="true"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textUserName"
+                android:layout_height="wrap_content" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:id="@+id/circleImageUser"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                app:civ_border_color="@color/overlayBack"
+                app:civ_border_width="1dp"
+                android:src="@drawable/ic_profile"
+                android:layout_height="40dp" />
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="60dp"
+        android:paddingBottom="100dp"
+        android:id="@+id/recyclerViewInbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/overlayBack"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editMessage"
+            android:layout_width="match_parent"
+            android:layout_weight="8"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:maxHeight="300dp"
+            android:hint=" Type your Message....."
+            android:background="@drawable/rounded_edit_text"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabSend"
+            android:src="@drawable/ic_send"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>

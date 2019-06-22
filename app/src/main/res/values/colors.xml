@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e2029</color>
+    <color name="colorPrimaryDark">#17181e</color>
+    <color name="colorAccent">#787678</color>
+    <color name="black">#000000</color>
+    <color name="blue">#280d80</color>
+    <color name="white">#fdfdfd</color>
+    <color name="overlayBack">#7f333639</color>
+    <color name="overlayactionbar">#0e0d0e</color>
+    <color name="grey">#cecdce</color>
+    <color name="orange">#602d02</color>
+    <color name="secondary_color">#787678</color>
+    <color name="main_color">#602d02</color>
+    <color name="green">#40f902</color>
+    <color name="red">#fc0307</color>
+    <color name="yellow">#fca503</color>
+    <color name="transparent">#00000000</color>
+    <color name="link_blue">#4d94ff</color>
+    <color name="darkRed">#d20303</color>
+    <color name="cool">#44a42a</color>
+    <color name="cool2">#640122</color>
+    <color name="cool3">#8e6868</color>
+    <color name="cool4">#b46907</color>
+    <color name="cool5">#e4511b</color>
+    <color name="cool6">#f1b9b9</color>
+    <color name="cool7">#beae37</color>
+    <color name="darkBlue">#02012b</color>
+    <color name="greywhite">#faf8f8</color>
+
+
+
+</resources>

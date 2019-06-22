@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+    <TextView
+        android:id="@+id/layoutTitle"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Information center"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/layoutTitle"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/link_blue"
+        android:layout_centerHorizontal="true"
+        android:text="contact: +254710285805 \n contact: +254780177440 \n Diahealthcare@gmail.com"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
